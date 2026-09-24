@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "An AI-Powered Digital Twin Operating System for Organizations",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./src/server.js"
+  },
+  "author": "Ayush&Avinash",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1"
+  }
+}
