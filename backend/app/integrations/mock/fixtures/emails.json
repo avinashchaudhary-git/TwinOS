@@ -1,0 +1,1228 @@
+[
+  {
+    "id": "email-001",
+    "thread_id": "thread-002",
+    "subject": "[Cloud Infrastructure Migration] Incident Report: High latency on telemetry ingestion",
+    "sender_email": "bob.martinez@acme.org",
+    "sender_name": "Bob Martinez",
+    "recipient_emails": [
+      "bob.martinez@acme.org",
+      "hannah.abbott@acme.org",
+      "julia.roberts@acme.org",
+      "alice.chen@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "sent_at": "2026-10-05T09:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, incident report: high latency on telemetry ingestion. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-002",
+    "thread_id": "thread-003",
+    "subject": "[SSO & Identity Federation] Release Candidate v2.0 sign-off checklist",
+    "sender_email": "laura.croft@acme.org",
+    "sender_name": "Laura Croft",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "hannah.abbott@acme.org"
+    ],
+    "sent_at": "2026-09-02T07:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, release candidate v2.0 sign-off checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-003",
+    "thread_id": "thread-004",
+    "subject": "[SSO & Identity Federation] Risk Mitigation Proposal: Workload rebalancing for sprint 14",
+    "sender_email": "charlie.davis@acme.org",
+    "sender_name": "Charlie Davis",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "evan.wright@acme.org",
+      "bob.martinez@acme.org",
+      "alice.chen@acme.org"
+    ],
+    "sent_at": "2026-09-18T10:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, risk mitigation proposal: workload rebalancing for sprint 14. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-004",
+    "thread_id": "thread-005",
+    "subject": "[Mobile Gateway & API Hub] Status Update: SSO federation readiness",
+    "sender_email": "evan.wright@acme.org",
+    "sender_name": "Evan Wright",
+    "recipient_emails": [
+      "hannah.abbott@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "sent_at": "2026-10-02T04:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, status update: sso federation readiness. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-005",
+    "thread_id": "thread-006",
+    "subject": "[Core Platform v2.0] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "julia.roberts@acme.org",
+    "sender_name": "Julia Roberts",
+    "recipient_emails": [
+      "fiona.gallagher@acme.org",
+      "charlie.davis@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "sent_at": "2026-08-23T10:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-006",
+    "thread_id": "thread-007",
+    "subject": "[Cloud Infrastructure Migration] Sprint Planning Updates & Blockers",
+    "sender_email": "diana.prince@acme.org",
+    "sender_name": "Diana Prince",
+    "recipient_emails": [
+      "alice.chen@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "sent_at": "2026-09-05T06:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, sprint planning updates & blockers. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-007",
+    "thread_id": "thread-008",
+    "subject": "[Real-time Telemetry Pipeline] Security Audit: OAuth2 token rotation checklist",
+    "sender_email": "george.miller@acme.org",
+    "sender_name": "George Miller",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "alice.chen@acme.org",
+      "ian.malcolm@acme.org"
+    ],
+    "sent_at": "2026-09-15T08:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, security audit: oauth2 token rotation checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-008",
+    "thread_id": "thread-009",
+    "subject": "[Core Platform v2.0] Release Candidate v2.0 sign-off checklist",
+    "sender_email": "george.miller@acme.org",
+    "sender_name": "George Miller",
+    "recipient_emails": [
+      "evan.wright@acme.org",
+      "bob.martinez@acme.org",
+      "julia.roberts@acme.org",
+      "fiona.gallagher@acme.org"
+    ],
+    "sent_at": "2026-08-23T11:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, release candidate v2.0 sign-off checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-009",
+    "thread_id": "thread-010",
+    "subject": "[Core Platform v2.0] RFC: Moving telemetry pipeline to asynchronous buffering",
+    "sender_email": "charlie.davis@acme.org",
+    "sender_name": "Charlie Davis",
+    "recipient_emails": [
+      "ian.malcolm@acme.org",
+      "alice.chen@acme.org",
+      "george.miller@acme.org"
+    ],
+    "sent_at": "2026-08-11T07:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, rfc: moving telemetry pipeline to asynchronous buffering. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-010",
+    "thread_id": "thread-011",
+    "subject": "[SSO & Identity Federation] Security Audit: OAuth2 token rotation checklist",
+    "sender_email": "evan.wright@acme.org",
+    "sender_name": "Evan Wright",
+    "recipient_emails": [
+      "bob.martinez@acme.org",
+      "ian.malcolm@acme.org",
+      "hannah.abbott@acme.org",
+      "alice.chen@acme.org"
+    ],
+    "sent_at": "2026-09-17T07:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, security audit: oauth2 token rotation checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-011",
+    "thread_id": "thread-012",
+    "subject": "[Real-time Telemetry Pipeline] Security Audit: OAuth2 token rotation checklist",
+    "sender_email": "laura.croft@acme.org",
+    "sender_name": "Laura Croft",
+    "recipient_emails": [
+      "hannah.abbott@acme.org",
+      "fiona.gallagher@acme.org",
+      "julia.roberts@acme.org"
+    ],
+    "sent_at": "2026-08-20T08:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, security audit: oauth2 token rotation checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-012",
+    "thread_id": "thread-013",
+    "subject": "[Cloud Infrastructure Migration] Release Candidate v2.0 sign-off checklist",
+    "sender_email": "charlie.davis@acme.org",
+    "sender_name": "Charlie Davis",
+    "recipient_emails": [
+      "george.miller@acme.org",
+      "alice.chen@acme.org"
+    ],
+    "sent_at": "2026-09-13T11:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, release candidate v2.0 sign-off checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-013",
+    "thread_id": "thread-014",
+    "subject": "[SSO & Identity Federation] Incident Report: High latency on telemetry ingestion",
+    "sender_email": "fiona.gallagher@acme.org",
+    "sender_name": "Fiona Gallagher",
+    "recipient_emails": [
+      "kevin.bacon@acme.org",
+      "george.miller@acme.org"
+    ],
+    "sent_at": "2026-09-22T08:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, incident report: high latency on telemetry ingestion. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-014",
+    "thread_id": "thread-015",
+    "subject": "[Cloud Infrastructure Migration] Release Candidate v2.0 sign-off checklist",
+    "sender_email": "george.miller@acme.org",
+    "sender_name": "George Miller",
+    "recipient_emails": [
+      "alice.chen@acme.org",
+      "charlie.davis@acme.org",
+      "evan.wright@acme.org",
+      "bob.martinez@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "sent_at": "2026-09-09T06:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, release candidate v2.0 sign-off checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-015",
+    "thread_id": "thread-016",
+    "subject": "[Mobile Gateway & API Hub] Milestone Slippage Warning: Cloud Infrastructure Migration",
+    "sender_email": "hannah.abbott@acme.org",
+    "sender_name": "Hannah Abbott",
+    "recipient_emails": [
+      "julia.roberts@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "sent_at": "2026-08-26T05:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, milestone slippage warning: cloud infrastructure migration. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-016",
+    "thread_id": "thread-017",
+    "subject": "[Cloud Infrastructure Migration] Security Audit: OAuth2 token rotation checklist",
+    "sender_email": "bob.martinez@acme.org",
+    "sender_name": "Bob Martinez",
+    "recipient_emails": [
+      "george.miller@acme.org",
+      "kevin.bacon@acme.org"
+    ],
+    "sent_at": "2026-09-17T07:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, security audit: oauth2 token rotation checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-017",
+    "thread_id": "thread-018",
+    "subject": "[Cloud Infrastructure Migration] Incident Report: High latency on telemetry ingestion",
+    "sender_email": "fiona.gallagher@acme.org",
+    "sender_name": "Fiona Gallagher",
+    "recipient_emails": [
+      "laura.croft@acme.org",
+      "fiona.gallagher@acme.org",
+      "kevin.bacon@acme.org",
+      "hannah.abbott@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "sent_at": "2026-09-23T09:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, incident report: high latency on telemetry ingestion. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-018",
+    "thread_id": "thread-019",
+    "subject": "[Cloud Infrastructure Migration] RFC: Moving telemetry pipeline to asynchronous buffering",
+    "sender_email": "julia.roberts@acme.org",
+    "sender_name": "Julia Roberts",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "sent_at": "2026-09-06T06:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, rfc: moving telemetry pipeline to asynchronous buffering. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-019",
+    "thread_id": "thread-020",
+    "subject": "[Cloud Infrastructure Migration] RFC: Moving telemetry pipeline to asynchronous buffering",
+    "sender_email": "george.miller@acme.org",
+    "sender_name": "George Miller",
+    "recipient_emails": [
+      "ian.malcolm@acme.org",
+      "fiona.gallagher@acme.org"
+    ],
+    "sent_at": "2026-09-16T04:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, rfc: moving telemetry pipeline to asynchronous buffering. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-020",
+    "thread_id": "thread-021",
+    "subject": "[SSO & Identity Federation] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "evan.wright@acme.org",
+    "sender_name": "Evan Wright",
+    "recipient_emails": [
+      "bob.martinez@acme.org",
+      "charlie.davis@acme.org"
+    ],
+    "sent_at": "2026-10-03T08:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-021",
+    "thread_id": "thread-022",
+    "subject": "[Real-time Telemetry Pipeline] Release Candidate v2.0 sign-off checklist",
+    "sender_email": "fiona.gallagher@acme.org",
+    "sender_name": "Fiona Gallagher",
+    "recipient_emails": [
+      "bob.martinez@acme.org",
+      "diana.prince@acme.org",
+      "fiona.gallagher@acme.org"
+    ],
+    "sent_at": "2026-10-02T07:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, release candidate v2.0 sign-off checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-022",
+    "thread_id": "thread-023",
+    "subject": "[Mobile Gateway & API Hub] Release Candidate v2.0 sign-off checklist",
+    "sender_email": "evan.wright@acme.org",
+    "sender_name": "Evan Wright",
+    "recipient_emails": [
+      "alice.chen@acme.org",
+      "george.miller@acme.org",
+      "hannah.abbott@acme.org"
+    ],
+    "sent_at": "2026-09-20T10:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, release candidate v2.0 sign-off checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-023",
+    "thread_id": "thread-024",
+    "subject": "[Core Platform v2.0] Sprint Planning Updates & Blockers",
+    "sender_email": "hannah.abbott@acme.org",
+    "sender_name": "Hannah Abbott",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "sent_at": "2026-08-13T08:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, sprint planning updates & blockers. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-024",
+    "thread_id": "thread-025",
+    "subject": "[Mobile Gateway & API Hub] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "charlie.davis@acme.org",
+    "sender_name": "Charlie Davis",
+    "recipient_emails": [
+      "george.miller@acme.org",
+      "fiona.gallagher@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "sent_at": "2026-09-19T10:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-025",
+    "thread_id": "thread-001",
+    "subject": "[Real-time Telemetry Pipeline] Milestone Slippage Warning: Cloud Infrastructure Migration",
+    "sender_email": "alice.chen@acme.org",
+    "sender_name": "Alice Chen",
+    "recipient_emails": [
+      "diana.prince@acme.org",
+      "kevin.bacon@acme.org"
+    ],
+    "sent_at": "2026-09-30T06:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, milestone slippage warning: cloud infrastructure migration. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-026",
+    "thread_id": "thread-002",
+    "subject": "[Cloud Infrastructure Migration] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "bob.martinez@acme.org",
+    "sender_name": "Bob Martinez",
+    "recipient_emails": [
+      "hannah.abbott@acme.org",
+      "alice.chen@acme.org"
+    ],
+    "sent_at": "2026-09-08T05:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-027",
+    "thread_id": "thread-003",
+    "subject": "[Real-time Telemetry Pipeline] Milestone Slippage Warning: Cloud Infrastructure Migration",
+    "sender_email": "hannah.abbott@acme.org",
+    "sender_name": "Hannah Abbott",
+    "recipient_emails": [
+      "george.miller@acme.org",
+      "kevin.bacon@acme.org"
+    ],
+    "sent_at": "2026-09-13T08:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, milestone slippage warning: cloud infrastructure migration. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-028",
+    "thread_id": "thread-004",
+    "subject": "[Mobile Gateway & API Hub] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "charlie.davis@acme.org",
+    "sender_name": "Charlie Davis",
+    "recipient_emails": [
+      "evan.wright@acme.org",
+      "hannah.abbott@acme.org",
+      "charlie.davis@acme.org",
+      "alice.chen@acme.org"
+    ],
+    "sent_at": "2026-08-27T08:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-029",
+    "thread_id": "thread-005",
+    "subject": "[Core Platform v2.0] Incident Report: High latency on telemetry ingestion",
+    "sender_email": "kevin.bacon@acme.org",
+    "sender_name": "Kevin Bacon",
+    "recipient_emails": [
+      "hannah.abbott@acme.org",
+      "george.miller@acme.org",
+      "ian.malcolm@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "sent_at": "2026-09-18T05:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, incident report: high latency on telemetry ingestion. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-030",
+    "thread_id": "thread-006",
+    "subject": "[Real-time Telemetry Pipeline] Status Update: SSO federation readiness",
+    "sender_email": "charlie.davis@acme.org",
+    "sender_name": "Charlie Davis",
+    "recipient_emails": [
+      "diana.prince@acme.org",
+      "kevin.bacon@acme.org",
+      "ian.malcolm@acme.org",
+      "laura.croft@acme.org",
+      "alice.chen@acme.org"
+    ],
+    "sent_at": "2026-09-05T04:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, status update: sso federation readiness. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-031",
+    "thread_id": "thread-007",
+    "subject": "[SSO & Identity Federation] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "fiona.gallagher@acme.org",
+    "sender_name": "Fiona Gallagher",
+    "recipient_emails": [
+      "george.miller@acme.org",
+      "evan.wright@acme.org",
+      "charlie.davis@acme.org",
+      "alice.chen@acme.org"
+    ],
+    "sent_at": "2026-09-21T11:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-032",
+    "thread_id": "thread-008",
+    "subject": "[SSO & Identity Federation] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "evan.wright@acme.org",
+    "sender_name": "Evan Wright",
+    "recipient_emails": [
+      "hannah.abbott@acme.org",
+      "ian.malcolm@acme.org"
+    ],
+    "sent_at": "2026-09-21T09:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-033",
+    "thread_id": "thread-009",
+    "subject": "[Mobile Gateway & API Hub] Sprint Planning Updates & Blockers",
+    "sender_email": "bob.martinez@acme.org",
+    "sender_name": "Bob Martinez",
+    "recipient_emails": [
+      "kevin.bacon@acme.org",
+      "diana.prince@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "sent_at": "2026-08-18T08:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, sprint planning updates & blockers. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-034",
+    "thread_id": "thread-010",
+    "subject": "[SSO & Identity Federation] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "julia.roberts@acme.org",
+    "sender_name": "Julia Roberts",
+    "recipient_emails": [
+      "fiona.gallagher@acme.org",
+      "charlie.davis@acme.org",
+      "kevin.bacon@acme.org",
+      "diana.prince@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "sent_at": "2026-10-04T06:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-035",
+    "thread_id": "thread-011",
+    "subject": "[Mobile Gateway & API Hub] Weekly Sync: Architectural alignment across core teams",
+    "sender_email": "julia.roberts@acme.org",
+    "sender_name": "Julia Roberts",
+    "recipient_emails": [
+      "julia.roberts@acme.org",
+      "diana.prince@acme.org",
+      "hannah.abbott@acme.org"
+    ],
+    "sent_at": "2026-09-24T04:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, weekly sync: architectural alignment across core teams. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-036",
+    "thread_id": "thread-012",
+    "subject": "[Mobile Gateway & API Hub] Security Audit: OAuth2 token rotation checklist",
+    "sender_email": "alice.chen@acme.org",
+    "sender_name": "Alice Chen",
+    "recipient_emails": [
+      "alice.chen@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "sent_at": "2026-10-04T04:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, security audit: oauth2 token rotation checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-037",
+    "thread_id": "thread-013",
+    "subject": "[Cloud Infrastructure Migration] Status Update: SSO federation readiness",
+    "sender_email": "alice.chen@acme.org",
+    "sender_name": "Alice Chen",
+    "recipient_emails": [
+      "julia.roberts@acme.org",
+      "diana.prince@acme.org",
+      "charlie.davis@acme.org",
+      "fiona.gallagher@acme.org"
+    ],
+    "sent_at": "2026-10-02T11:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, status update: sso federation readiness. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-038",
+    "thread_id": "thread-014",
+    "subject": "[Core Platform v2.0] Status Update: SSO federation readiness",
+    "sender_email": "charlie.davis@acme.org",
+    "sender_name": "Charlie Davis",
+    "recipient_emails": [
+      "bob.martinez@acme.org",
+      "ian.malcolm@acme.org",
+      "fiona.gallagher@acme.org"
+    ],
+    "sent_at": "2026-08-21T05:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, status update: sso federation readiness. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-039",
+    "thread_id": "thread-015",
+    "subject": "[SSO & Identity Federation] Milestone Slippage Warning: Cloud Infrastructure Migration",
+    "sender_email": "julia.roberts@acme.org",
+    "sender_name": "Julia Roberts",
+    "recipient_emails": [
+      "fiona.gallagher@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "sent_at": "2026-09-25T05:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, milestone slippage warning: cloud infrastructure migration. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-040",
+    "thread_id": "thread-016",
+    "subject": "[Cloud Infrastructure Migration] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "kevin.bacon@acme.org",
+    "sender_name": "Kevin Bacon",
+    "recipient_emails": [
+      "kevin.bacon@acme.org",
+      "fiona.gallagher@acme.org",
+      "charlie.davis@acme.org",
+      "ian.malcolm@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "sent_at": "2026-08-14T09:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-041",
+    "thread_id": "thread-017",
+    "subject": "[Core Platform v2.0] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "george.miller@acme.org",
+    "sender_name": "George Miller",
+    "recipient_emails": [
+      "laura.croft@acme.org",
+      "evan.wright@acme.org",
+      "charlie.davis@acme.org",
+      "julia.roberts@acme.org"
+    ],
+    "sent_at": "2026-09-10T11:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-042",
+    "thread_id": "thread-018",
+    "subject": "[Real-time Telemetry Pipeline] Milestone Slippage Warning: Cloud Infrastructure Migration",
+    "sender_email": "charlie.davis@acme.org",
+    "sender_name": "Charlie Davis",
+    "recipient_emails": [
+      "julia.roberts@acme.org",
+      "diana.prince@acme.org",
+      "laura.croft@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "sent_at": "2026-09-14T10:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, milestone slippage warning: cloud infrastructure migration. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-043",
+    "thread_id": "thread-019",
+    "subject": "[Real-time Telemetry Pipeline] Sprint Planning Updates & Blockers",
+    "sender_email": "diana.prince@acme.org",
+    "sender_name": "Diana Prince",
+    "recipient_emails": [
+      "fiona.gallagher@acme.org",
+      "charlie.davis@acme.org",
+      "bob.martinez@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "sent_at": "2026-09-19T08:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, sprint planning updates & blockers. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-044",
+    "thread_id": "thread-020",
+    "subject": "[Core Platform v2.0] Sprint Planning Updates & Blockers",
+    "sender_email": "diana.prince@acme.org",
+    "sender_name": "Diana Prince",
+    "recipient_emails": [
+      "fiona.gallagher@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "sent_at": "2026-10-02T05:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, sprint planning updates & blockers. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-045",
+    "thread_id": "thread-021",
+    "subject": "[Mobile Gateway & API Hub] Risk Mitigation Proposal: Workload rebalancing for sprint 14",
+    "sender_email": "hannah.abbott@acme.org",
+    "sender_name": "Hannah Abbott",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "george.miller@acme.org",
+      "hannah.abbott@acme.org",
+      "kevin.bacon@acme.org",
+      "fiona.gallagher@acme.org"
+    ],
+    "sent_at": "2026-09-29T04:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, risk mitigation proposal: workload rebalancing for sprint 14. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-046",
+    "thread_id": "thread-022",
+    "subject": "[Core Platform v2.0] Weekly Sync: Architectural alignment across core teams",
+    "sender_email": "julia.roberts@acme.org",
+    "sender_name": "Julia Roberts",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "hannah.abbott@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "sent_at": "2026-10-04T06:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, weekly sync: architectural alignment across core teams. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-047",
+    "thread_id": "thread-023",
+    "subject": "[Cloud Infrastructure Migration] Risk Mitigation Proposal: Workload rebalancing for sprint 14",
+    "sender_email": "evan.wright@acme.org",
+    "sender_name": "Evan Wright",
+    "recipient_emails": [
+      "bob.martinez@acme.org",
+      "fiona.gallagher@acme.org"
+    ],
+    "sent_at": "2026-09-25T10:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, risk mitigation proposal: workload rebalancing for sprint 14. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-048",
+    "thread_id": "thread-024",
+    "subject": "[Mobile Gateway & API Hub] RFC: Moving telemetry pipeline to asynchronous buffering",
+    "sender_email": "ian.malcolm@acme.org",
+    "sender_name": "Ian Malcolm",
+    "recipient_emails": [
+      "fiona.gallagher@acme.org",
+      "julia.roberts@acme.org"
+    ],
+    "sent_at": "2026-08-21T11:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, rfc: moving telemetry pipeline to asynchronous buffering. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-049",
+    "thread_id": "thread-025",
+    "subject": "[Core Platform v2.0] Incident Report: High latency on telemetry ingestion",
+    "sender_email": "george.miller@acme.org",
+    "sender_name": "George Miller",
+    "recipient_emails": [
+      "julia.roberts@acme.org",
+      "george.miller@acme.org",
+      "charlie.davis@acme.org"
+    ],
+    "sent_at": "2026-09-14T08:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, incident report: high latency on telemetry ingestion. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-050",
+    "thread_id": "thread-001",
+    "subject": "[SSO & Identity Federation] Security Audit: OAuth2 token rotation checklist",
+    "sender_email": "diana.prince@acme.org",
+    "sender_name": "Diana Prince",
+    "recipient_emails": [
+      "laura.croft@acme.org",
+      "ian.malcolm@acme.org",
+      "kevin.bacon@acme.org",
+      "evan.wright@acme.org",
+      "julia.roberts@acme.org"
+    ],
+    "sent_at": "2026-09-29T11:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, security audit: oauth2 token rotation checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-051",
+    "thread_id": "thread-002",
+    "subject": "[Core Platform v2.0] Weekly Sync: Architectural alignment across core teams",
+    "sender_email": "george.miller@acme.org",
+    "sender_name": "George Miller",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "alice.chen@acme.org",
+      "fiona.gallagher@acme.org",
+      "kevin.bacon@acme.org",
+      "george.miller@acme.org"
+    ],
+    "sent_at": "2026-08-14T04:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, weekly sync: architectural alignment across core teams. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-052",
+    "thread_id": "thread-003",
+    "subject": "[Cloud Infrastructure Migration] Weekly Sync: Architectural alignment across core teams",
+    "sender_email": "diana.prince@acme.org",
+    "sender_name": "Diana Prince",
+    "recipient_emails": [
+      "alice.chen@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "sent_at": "2026-09-30T04:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, weekly sync: architectural alignment across core teams. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-053",
+    "thread_id": "thread-004",
+    "subject": "[Core Platform v2.0] Release Candidate v2.0 sign-off checklist",
+    "sender_email": "bob.martinez@acme.org",
+    "sender_name": "Bob Martinez",
+    "recipient_emails": [
+      "george.miller@acme.org",
+      "hannah.abbott@acme.org",
+      "kevin.bacon@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "sent_at": "2026-09-11T09:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, release candidate v2.0 sign-off checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-054",
+    "thread_id": "thread-005",
+    "subject": "[Real-time Telemetry Pipeline] RFC: Moving telemetry pipeline to asynchronous buffering",
+    "sender_email": "fiona.gallagher@acme.org",
+    "sender_name": "Fiona Gallagher",
+    "recipient_emails": [
+      "fiona.gallagher@acme.org",
+      "charlie.davis@acme.org",
+      "hannah.abbott@acme.org",
+      "alice.chen@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "sent_at": "2026-09-19T08:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, rfc: moving telemetry pipeline to asynchronous buffering. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-055",
+    "thread_id": "thread-006",
+    "subject": "[Core Platform v2.0] Incident Report: High latency on telemetry ingestion",
+    "sender_email": "evan.wright@acme.org",
+    "sender_name": "Evan Wright",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "kevin.bacon@acme.org"
+    ],
+    "sent_at": "2026-08-24T06:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, incident report: high latency on telemetry ingestion. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-056",
+    "thread_id": "thread-007",
+    "subject": "[Mobile Gateway & API Hub] Risk Mitigation Proposal: Workload rebalancing for sprint 14",
+    "sender_email": "ian.malcolm@acme.org",
+    "sender_name": "Ian Malcolm",
+    "recipient_emails": [
+      "julia.roberts@acme.org",
+      "diana.prince@acme.org",
+      "ian.malcolm@acme.org",
+      "alice.chen@acme.org",
+      "george.miller@acme.org"
+    ],
+    "sent_at": "2026-09-01T04:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, risk mitigation proposal: workload rebalancing for sprint 14. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-057",
+    "thread_id": "thread-008",
+    "subject": "[Real-time Telemetry Pipeline] Sprint Planning Updates & Blockers",
+    "sender_email": "julia.roberts@acme.org",
+    "sender_name": "Julia Roberts",
+    "recipient_emails": [
+      "hannah.abbott@acme.org",
+      "evan.wright@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "sent_at": "2026-09-03T09:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, sprint planning updates & blockers. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-058",
+    "thread_id": "thread-009",
+    "subject": "[Core Platform v2.0] Risk Mitigation Proposal: Workload rebalancing for sprint 14",
+    "sender_email": "bob.martinez@acme.org",
+    "sender_name": "Bob Martinez",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "laura.croft@acme.org",
+      "diana.prince@acme.org",
+      "julia.roberts@acme.org",
+      "kevin.bacon@acme.org"
+    ],
+    "sent_at": "2026-09-30T05:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, risk mitigation proposal: workload rebalancing for sprint 14. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-059",
+    "thread_id": "thread-010",
+    "subject": "[Core Platform v2.0] Incident Report: High latency on telemetry ingestion",
+    "sender_email": "diana.prince@acme.org",
+    "sender_name": "Diana Prince",
+    "recipient_emails": [
+      "julia.roberts@acme.org",
+      "evan.wright@acme.org",
+      "fiona.gallagher@acme.org"
+    ],
+    "sent_at": "2026-09-11T05:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, incident report: high latency on telemetry ingestion. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-060",
+    "thread_id": "thread-011",
+    "subject": "[Mobile Gateway & API Hub] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "ian.malcolm@acme.org",
+    "sender_name": "Ian Malcolm",
+    "recipient_emails": [
+      "evan.wright@acme.org",
+      "ian.malcolm@acme.org",
+      "hannah.abbott@acme.org",
+      "alice.chen@acme.org"
+    ],
+    "sent_at": "2026-09-02T05:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-061",
+    "thread_id": "thread-012",
+    "subject": "[Mobile Gateway & API Hub] Incident Report: High latency on telemetry ingestion",
+    "sender_email": "bob.martinez@acme.org",
+    "sender_name": "Bob Martinez",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "laura.croft@acme.org",
+      "julia.roberts@acme.org",
+      "bob.martinez@acme.org",
+      "ian.malcolm@acme.org"
+    ],
+    "sent_at": "2026-08-16T07:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, incident report: high latency on telemetry ingestion. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-062",
+    "thread_id": "thread-013",
+    "subject": "[Mobile Gateway & API Hub] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "ian.malcolm@acme.org",
+    "sender_name": "Ian Malcolm",
+    "recipient_emails": [
+      "george.miller@acme.org",
+      "evan.wright@acme.org",
+      "laura.croft@acme.org",
+      "hannah.abbott@acme.org"
+    ],
+    "sent_at": "2026-09-05T11:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-063",
+    "thread_id": "thread-014",
+    "subject": "[Core Platform v2.0] Risk Mitigation Proposal: Workload rebalancing for sprint 14",
+    "sender_email": "charlie.davis@acme.org",
+    "sender_name": "Charlie Davis",
+    "recipient_emails": [
+      "george.miller@acme.org",
+      "charlie.davis@acme.org",
+      "julia.roberts@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "sent_at": "2026-08-10T06:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, risk mitigation proposal: workload rebalancing for sprint 14. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-064",
+    "thread_id": "thread-015",
+    "subject": "[SSO & Identity Federation] Sprint Planning Updates & Blockers",
+    "sender_email": "laura.croft@acme.org",
+    "sender_name": "Laura Croft",
+    "recipient_emails": [
+      "alice.chen@acme.org",
+      "hannah.abbott@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "sent_at": "2026-09-14T07:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, sprint planning updates & blockers. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-065",
+    "thread_id": "thread-016",
+    "subject": "[Cloud Infrastructure Migration] Weekly Sync: Architectural alignment across core teams",
+    "sender_email": "evan.wright@acme.org",
+    "sender_name": "Evan Wright",
+    "recipient_emails": [
+      "hannah.abbott@acme.org",
+      "kevin.bacon@acme.org",
+      "bob.martinez@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "sent_at": "2026-08-19T04:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, weekly sync: architectural alignment across core teams. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-066",
+    "thread_id": "thread-017",
+    "subject": "[Cloud Infrastructure Migration] RFC: Moving telemetry pipeline to asynchronous buffering",
+    "sender_email": "fiona.gallagher@acme.org",
+    "sender_name": "Fiona Gallagher",
+    "recipient_emails": [
+      "laura.croft@acme.org",
+      "george.miller@acme.org",
+      "julia.roberts@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "sent_at": "2026-09-22T05:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, rfc: moving telemetry pipeline to asynchronous buffering. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-067",
+    "thread_id": "thread-018",
+    "subject": "[Core Platform v2.0] Weekly Sync: Architectural alignment across core teams",
+    "sender_email": "laura.croft@acme.org",
+    "sender_name": "Laura Croft",
+    "recipient_emails": [
+      "ian.malcolm@acme.org",
+      "fiona.gallagher@acme.org",
+      "alice.chen@acme.org",
+      "laura.croft@acme.org",
+      "charlie.davis@acme.org"
+    ],
+    "sent_at": "2026-08-21T05:00:00Z",
+    "snippet": "Hi team, regarding Core Platform v2.0: We noticed blockers on recent deliverables. Specifically, weekly sync: architectural alignment across core teams. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-core-platform"
+  },
+  {
+    "id": "email-068",
+    "thread_id": "thread-019",
+    "subject": "[Cloud Infrastructure Migration] Sprint Planning Updates & Blockers",
+    "sender_email": "charlie.davis@acme.org",
+    "sender_name": "Charlie Davis",
+    "recipient_emails": [
+      "charlie.davis@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "sent_at": "2026-09-20T11:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, sprint planning updates & blockers. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-069",
+    "thread_id": "thread-020",
+    "subject": "[SSO & Identity Federation] Status Update: SSO federation readiness",
+    "sender_email": "hannah.abbott@acme.org",
+    "sender_name": "Hannah Abbott",
+    "recipient_emails": [
+      "fiona.gallagher@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "sent_at": "2026-08-14T04:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, status update: sso federation readiness. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-070",
+    "thread_id": "thread-021",
+    "subject": "[Real-time Telemetry Pipeline] Urgent: Database deadlocks detected on staging replica",
+    "sender_email": "ian.malcolm@acme.org",
+    "sender_name": "Ian Malcolm",
+    "recipient_emails": [
+      "kevin.bacon@acme.org",
+      "bob.martinez@acme.org",
+      "alice.chen@acme.org",
+      "diana.prince@acme.org",
+      "fiona.gallagher@acme.org"
+    ],
+    "sent_at": "2026-09-07T09:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, urgent: database deadlocks detected on staging replica. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-071",
+    "thread_id": "thread-022",
+    "subject": "[SSO & Identity Federation] Sprint Planning Updates & Blockers",
+    "sender_email": "hannah.abbott@acme.org",
+    "sender_name": "Hannah Abbott",
+    "recipient_emails": [
+      "fiona.gallagher@acme.org",
+      "charlie.davis@acme.org",
+      "evan.wright@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "sent_at": "2026-09-11T11:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, sprint planning updates & blockers. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-072",
+    "thread_id": "thread-023",
+    "subject": "[Cloud Infrastructure Migration] Weekly Sync: Architectural alignment across core teams",
+    "sender_email": "charlie.davis@acme.org",
+    "sender_name": "Charlie Davis",
+    "recipient_emails": [
+      "diana.prince@acme.org",
+      "kevin.bacon@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "sent_at": "2026-08-25T05:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, weekly sync: architectural alignment across core teams. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-073",
+    "thread_id": "thread-024",
+    "subject": "[Real-time Telemetry Pipeline] Milestone Slippage Warning: Cloud Infrastructure Migration",
+    "sender_email": "ian.malcolm@acme.org",
+    "sender_name": "Ian Malcolm",
+    "recipient_emails": [
+      "kevin.bacon@acme.org",
+      "alice.chen@acme.org"
+    ],
+    "sent_at": "2026-08-25T09:00:00Z",
+    "snippet": "Hi team, regarding Real-time Telemetry Pipeline: We noticed blockers on recent deliverables. Specifically, milestone slippage warning: cloud infrastructure migration. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-analytics-pipeline"
+  },
+  {
+    "id": "email-074",
+    "thread_id": "thread-025",
+    "subject": "[Mobile Gateway & API Hub] Weekly Sync: Architectural alignment across core teams",
+    "sender_email": "julia.roberts@acme.org",
+    "sender_name": "Julia Roberts",
+    "recipient_emails": [
+      "diana.prince@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "sent_at": "2026-08-21T07:00:00Z",
+    "snippet": "Hi team, regarding Mobile Gateway & API Hub: We noticed blockers on recent deliverables. Specifically, weekly sync: architectural alignment across core teams. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-mobile-app"
+  },
+  {
+    "id": "email-075",
+    "thread_id": "thread-001",
+    "subject": "[SSO & Identity Federation] Release Candidate v2.0 sign-off checklist",
+    "sender_email": "george.miller@acme.org",
+    "sender_name": "George Miller",
+    "recipient_emails": [
+      "fiona.gallagher@acme.org",
+      "hannah.abbott@acme.org",
+      "evan.wright@acme.org",
+      "diana.prince@acme.org",
+      "kevin.bacon@acme.org"
+    ],
+    "sent_at": "2026-08-14T05:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, release candidate v2.0 sign-off checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-076",
+    "thread_id": "thread-002",
+    "subject": "[SSO & Identity Federation] Release Candidate v2.0 sign-off checklist",
+    "sender_email": "julia.roberts@acme.org",
+    "sender_name": "Julia Roberts",
+    "recipient_emails": [
+      "alice.chen@acme.org",
+      "ian.malcolm@acme.org"
+    ],
+    "sent_at": "2026-08-25T07:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, release candidate v2.0 sign-off checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-077",
+    "thread_id": "thread-003",
+    "subject": "[SSO & Identity Federation] Weekly Sync: Architectural alignment across core teams",
+    "sender_email": "evan.wright@acme.org",
+    "sender_name": "Evan Wright",
+    "recipient_emails": [
+      "hannah.abbott@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "sent_at": "2026-08-26T06:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, weekly sync: architectural alignment across core teams. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-078",
+    "thread_id": "thread-004",
+    "subject": "[Cloud Infrastructure Migration] Release Candidate v2.0 sign-off checklist",
+    "sender_email": "evan.wright@acme.org",
+    "sender_name": "Evan Wright",
+    "recipient_emails": [
+      "kevin.bacon@acme.org",
+      "laura.croft@acme.org",
+      "evan.wright@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "sent_at": "2026-08-18T08:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, release candidate v2.0 sign-off checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  },
+  {
+    "id": "email-079",
+    "thread_id": "thread-005",
+    "subject": "[SSO & Identity Federation] Weekly Sync: Architectural alignment across core teams",
+    "sender_email": "alice.chen@acme.org",
+    "sender_name": "Alice Chen",
+    "recipient_emails": [
+      "kevin.bacon@acme.org",
+      "fiona.gallagher@acme.org",
+      "charlie.davis@acme.org",
+      "alice.chen@acme.org",
+      "hannah.abbott@acme.org"
+    ],
+    "sent_at": "2026-08-08T05:00:00Z",
+    "snippet": "Hi team, regarding SSO & Identity Federation: We noticed blockers on recent deliverables. Specifically, weekly sync: architectural alignment across core teams. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-auth-federation"
+  },
+  {
+    "id": "email-080",
+    "thread_id": "thread-006",
+    "subject": "[Cloud Infrastructure Migration] Release Candidate v2.0 sign-off checklist",
+    "sender_email": "george.miller@acme.org",
+    "sender_name": "George Miller",
+    "recipient_emails": [
+      "laura.croft@acme.org",
+      "alice.chen@acme.org",
+      "julia.roberts@acme.org",
+      "diana.prince@acme.org",
+      "fiona.gallagher@acme.org"
+    ],
+    "sent_at": "2026-08-26T04:00:00Z",
+    "snippet": "Hi team, regarding Cloud Infrastructure Migration: We noticed blockers on recent deliverables. Specifically, release candidate v2.0 sign-off checklist. Please review the assigned tickets on Trello and verify the latest commits.",
+    "project_id": "proj-cloud-migration"
+  }
+]

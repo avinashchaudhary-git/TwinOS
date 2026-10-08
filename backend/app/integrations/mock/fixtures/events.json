@@ -1,0 +1,635 @@
+[
+  {
+    "id": "event-001",
+    "title": "SSO & Identity Federation: Bi-weekly Security Council",
+    "start_at": "2026-09-16T23:00:00Z",
+    "end_at": "2026-09-16T23:45:00Z",
+    "attendees": [
+      "hannah.abbott@acme.org",
+      "charlie.davis@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-002",
+    "title": "Mobile Gateway & API Hub: Cloud Migration Readiness Check",
+    "start_at": "2026-10-20T02:00:00Z",
+    "end_at": "2026-10-20T03:00:00Z",
+    "attendees": [
+      "diana.prince@acme.org",
+      "fiona.gallagher@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "project_id": "proj-mobile-app",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-003",
+    "title": "SSO & Identity Federation: Milestone Milestone: Release Candidate Beta",
+    "start_at": "2026-10-27T02:00:00Z",
+    "end_at": "2026-10-27T02:45:00Z",
+    "attendees": [
+      "julia.roberts@acme.org",
+      "evan.wright@acme.org",
+      "hannah.abbott@acme.org",
+      "bob.martinez@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": true,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-004",
+    "title": "Core Platform v2.0: Cross-Team Architecture Review",
+    "start_at": "2026-10-07T00:00:00Z",
+    "end_at": "2026-10-07T01:00:00Z",
+    "attendees": [
+      "kevin.bacon@acme.org",
+      "george.miller@acme.org",
+      "ian.malcolm@acme.org"
+    ],
+    "project_id": "proj-core-platform",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-005",
+    "title": "SSO & Identity Federation: Milestone Milestone: Release Candidate Beta",
+    "start_at": "2026-09-09T23:00:00Z",
+    "end_at": "2026-09-09T23:30:00Z",
+    "attendees": [
+      "fiona.gallagher@acme.org",
+      "george.miller@acme.org",
+      "julia.roberts@acme.org",
+      "hannah.abbott@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": true,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-006",
+    "title": "Cloud Infrastructure Migration: Telemetry Performance Review",
+    "start_at": "2026-10-21T23:00:00Z",
+    "end_at": "2026-10-21T23:30:00Z",
+    "attendees": [
+      "fiona.gallagher@acme.org",
+      "kevin.bacon@acme.org",
+      "charlie.davis@acme.org",
+      "laura.croft@acme.org",
+      "alice.chen@acme.org",
+      "hannah.abbott@acme.org"
+    ],
+    "project_id": "proj-cloud-migration",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-007",
+    "title": "Real-time Telemetry Pipeline: Bi-weekly Security Council",
+    "start_at": "2026-09-19T23:00:00Z",
+    "end_at": "2026-09-20T00:00:00Z",
+    "attendees": [
+      "hannah.abbott@acme.org",
+      "bob.martinez@acme.org",
+      "charlie.davis@acme.org",
+      "george.miller@acme.org"
+    ],
+    "project_id": "proj-analytics-pipeline",
+    "is_milestone": true,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-008",
+    "title": "Real-time Telemetry Pipeline: Milestone Milestone: Release Candidate Beta",
+    "start_at": "2026-10-04T04:00:00Z",
+    "end_at": "2026-10-04T04:45:00Z",
+    "attendees": [
+      "alice.chen@acme.org",
+      "ian.malcolm@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "project_id": "proj-analytics-pipeline",
+    "is_milestone": true,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-009",
+    "title": "SSO & Identity Federation: Sprint Retrospective",
+    "start_at": "2026-09-27T00:00:00Z",
+    "end_at": "2026-09-27T00:30:00Z",
+    "attendees": [
+      "kevin.bacon@acme.org",
+      "diana.prince@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-010",
+    "title": "SSO & Identity Federation: Bi-weekly Security Council",
+    "start_at": "2026-09-14T22:00:00Z",
+    "end_at": "2026-09-14T22:45:00Z",
+    "attendees": [
+      "julia.roberts@acme.org",
+      "evan.wright@acme.org",
+      "charlie.davis@acme.org",
+      "bob.martinez@acme.org",
+      "alice.chen@acme.org",
+      "laura.croft@acme.org",
+      "george.miller@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-011",
+    "title": "Real-time Telemetry Pipeline: Telemetry Performance Review",
+    "start_at": "2026-10-03T23:00:00Z",
+    "end_at": "2026-10-03T23:45:00Z",
+    "attendees": [
+      "fiona.gallagher@acme.org",
+      "diana.prince@acme.org",
+      "charlie.davis@acme.org",
+      "george.miller@acme.org",
+      "alice.chen@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "project_id": "proj-analytics-pipeline",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-012",
+    "title": "Cloud Infrastructure Migration: Cloud Migration Readiness Check",
+    "start_at": "2026-09-19T21:00:00Z",
+    "end_at": "2026-09-19T22:00:00Z",
+    "attendees": [
+      "charlie.davis@acme.org",
+      "bob.martinez@acme.org",
+      "fiona.gallagher@acme.org",
+      "alice.chen@acme.org",
+      "george.miller@acme.org",
+      "julia.roberts@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "project_id": "proj-cloud-migration",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-013",
+    "title": "Mobile Gateway & API Hub: Sprint Retrospective",
+    "start_at": "2026-10-14T21:00:00Z",
+    "end_at": "2026-10-14T22:00:00Z",
+    "attendees": [
+      "kevin.bacon@acme.org",
+      "alice.chen@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "project_id": "proj-mobile-app",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-014",
+    "title": "Core Platform v2.0: Milestone Milestone: Release Candidate Beta",
+    "start_at": "2026-10-05T03:00:00Z",
+    "end_at": "2026-10-05T03:30:00Z",
+    "attendees": [
+      "evan.wright@acme.org",
+      "hannah.abbott@acme.org",
+      "charlie.davis@acme.org",
+      "diana.prince@acme.org",
+      "alice.chen@acme.org",
+      "julia.roberts@acme.org",
+      "ian.malcolm@acme.org"
+    ],
+    "project_id": "proj-core-platform",
+    "is_milestone": true,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-015",
+    "title": "Core Platform v2.0: Bi-weekly Security Council",
+    "start_at": "2026-10-15T23:00:00Z",
+    "end_at": "2026-10-15T23:45:00Z",
+    "attendees": [
+      "ian.malcolm@acme.org",
+      "julia.roberts@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "project_id": "proj-core-platform",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-016",
+    "title": "SSO & Identity Federation: Cross-Team Architecture Review",
+    "start_at": "2026-10-26T22:00:00Z",
+    "end_at": "2026-10-26T22:45:00Z",
+    "attendees": [
+      "julia.roberts@acme.org",
+      "diana.prince@acme.org",
+      "evan.wright@acme.org",
+      "ian.malcolm@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-017",
+    "title": "Cloud Infrastructure Migration: Telemetry Performance Review",
+    "start_at": "2026-10-22T03:00:00Z",
+    "end_at": "2026-10-22T03:45:00Z",
+    "attendees": [
+      "alice.chen@acme.org",
+      "ian.malcolm@acme.org",
+      "hannah.abbott@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "project_id": "proj-cloud-migration",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-018",
+    "title": "Real-time Telemetry Pipeline: Telemetry Performance Review",
+    "start_at": "2026-09-21T21:00:00Z",
+    "end_at": "2026-09-21T21:30:00Z",
+    "attendees": [
+      "bob.martinez@acme.org",
+      "julia.roberts@acme.org",
+      "hannah.abbott@acme.org"
+    ],
+    "project_id": "proj-analytics-pipeline",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-019",
+    "title": "Cloud Infrastructure Migration: Cross-Team Architecture Review",
+    "start_at": "2026-10-25T22:00:00Z",
+    "end_at": "2026-10-25T23:00:00Z",
+    "attendees": [
+      "evan.wright@acme.org",
+      "kevin.bacon@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "project_id": "proj-cloud-migration",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-020",
+    "title": "Real-time Telemetry Pipeline: Bi-weekly Security Council",
+    "start_at": "2026-09-23T04:00:00Z",
+    "end_at": "2026-09-23T04:30:00Z",
+    "attendees": [
+      "charlie.davis@acme.org",
+      "alice.chen@acme.org",
+      "evan.wright@acme.org"
+    ],
+    "project_id": "proj-analytics-pipeline",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-021",
+    "title": "SSO & Identity Federation: Telemetry Performance Review",
+    "start_at": "2026-10-03T22:00:00Z",
+    "end_at": "2026-10-03T22:30:00Z",
+    "attendees": [
+      "alice.chen@acme.org",
+      "charlie.davis@acme.org",
+      "kevin.bacon@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": true,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-022",
+    "title": "SSO & Identity Federation: Telemetry Performance Review",
+    "start_at": "2026-10-05T01:00:00Z",
+    "end_at": "2026-10-05T02:00:00Z",
+    "attendees": [
+      "fiona.gallagher@acme.org",
+      "laura.croft@acme.org",
+      "charlie.davis@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-023",
+    "title": "Core Platform v2.0: Milestone Milestone: Release Candidate Beta",
+    "start_at": "2026-10-02T04:00:00Z",
+    "end_at": "2026-10-02T04:45:00Z",
+    "attendees": [
+      "laura.croft@acme.org",
+      "hannah.abbott@acme.org",
+      "george.miller@acme.org",
+      "charlie.davis@acme.org",
+      "bob.martinez@acme.org",
+      "kevin.bacon@acme.org"
+    ],
+    "project_id": "proj-core-platform",
+    "is_milestone": true,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-024",
+    "title": "Core Platform v2.0: Cloud Migration Readiness Check",
+    "start_at": "2026-09-13T03:00:00Z",
+    "end_at": "2026-09-13T04:00:00Z",
+    "attendees": [
+      "julia.roberts@acme.org",
+      "kevin.bacon@acme.org",
+      "hannah.abbott@acme.org",
+      "charlie.davis@acme.org",
+      "george.miller@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "project_id": "proj-core-platform",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-025",
+    "title": "SSO & Identity Federation: Sprint Retrospective",
+    "start_at": "2026-10-19T23:00:00Z",
+    "end_at": "2026-10-19T23:45:00Z",
+    "attendees": [
+      "bob.martinez@acme.org",
+      "george.miller@acme.org",
+      "hannah.abbott@acme.org",
+      "alice.chen@acme.org",
+      "laura.croft@acme.org",
+      "charlie.davis@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-026",
+    "title": "SSO & Identity Federation: Sprint Retrospective",
+    "start_at": "2026-10-22T00:00:00Z",
+    "end_at": "2026-10-22T01:00:00Z",
+    "attendees": [
+      "ian.malcolm@acme.org",
+      "laura.croft@acme.org",
+      "julia.roberts@acme.org",
+      "bob.martinez@acme.org",
+      "george.miller@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-027",
+    "title": "Cloud Infrastructure Migration: Engineering Standup",
+    "start_at": "2026-09-29T03:00:00Z",
+    "end_at": "2026-09-29T03:30:00Z",
+    "attendees": [
+      "julia.roberts@acme.org",
+      "alice.chen@acme.org",
+      "kevin.bacon@acme.org",
+      "charlie.davis@acme.org",
+      "hannah.abbott@acme.org",
+      "george.miller@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "project_id": "proj-cloud-migration",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-028",
+    "title": "Cloud Infrastructure Migration: Cross-Team Architecture Review",
+    "start_at": "2026-10-25T04:00:00Z",
+    "end_at": "2026-10-25T04:45:00Z",
+    "attendees": [
+      "fiona.gallagher@acme.org",
+      "evan.wright@acme.org",
+      "alice.chen@acme.org",
+      "ian.malcolm@acme.org"
+    ],
+    "project_id": "proj-cloud-migration",
+    "is_milestone": true,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-029",
+    "title": "Cloud Infrastructure Migration: Milestone Milestone: Release Candidate Beta",
+    "start_at": "2026-10-02T00:00:00Z",
+    "end_at": "2026-10-02T00:30:00Z",
+    "attendees": [
+      "hannah.abbott@acme.org",
+      "julia.roberts@acme.org",
+      "laura.croft@acme.org",
+      "bob.martinez@acme.org",
+      "kevin.bacon@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "project_id": "proj-cloud-migration",
+    "is_milestone": true,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-030",
+    "title": "SSO & Identity Federation: Cross-Team Architecture Review",
+    "start_at": "2026-10-07T21:00:00Z",
+    "end_at": "2026-10-07T21:30:00Z",
+    "attendees": [
+      "george.miller@acme.org",
+      "alice.chen@acme.org",
+      "ian.malcolm@acme.org",
+      "julia.roberts@acme.org",
+      "kevin.bacon@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-031",
+    "title": "Core Platform v2.0: Bi-weekly Security Council",
+    "start_at": "2026-10-09T00:00:00Z",
+    "end_at": "2026-10-09T01:00:00Z",
+    "attendees": [
+      "fiona.gallagher@acme.org",
+      "laura.croft@acme.org",
+      "alice.chen@acme.org",
+      "diana.prince@acme.org",
+      "hannah.abbott@acme.org",
+      "charlie.davis@acme.org"
+    ],
+    "project_id": "proj-core-platform",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-032",
+    "title": "Mobile Gateway & API Hub: Engineering Standup",
+    "start_at": "2026-10-22T02:00:00Z",
+    "end_at": "2026-10-22T03:00:00Z",
+    "attendees": [
+      "bob.martinez@acme.org",
+      "laura.croft@acme.org",
+      "diana.prince@acme.org",
+      "alice.chen@acme.org",
+      "fiona.gallagher@acme.org",
+      "charlie.davis@acme.org"
+    ],
+    "project_id": "proj-mobile-app",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-033",
+    "title": "SSO & Identity Federation: Telemetry Performance Review",
+    "start_at": "2026-10-20T22:00:00Z",
+    "end_at": "2026-10-20T22:30:00Z",
+    "attendees": [
+      "hannah.abbott@acme.org",
+      "charlie.davis@acme.org",
+      "george.miller@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-034",
+    "title": "SSO & Identity Federation: Executive Operational Review",
+    "start_at": "2026-09-18T22:00:00Z",
+    "end_at": "2026-09-18T22:45:00Z",
+    "attendees": [
+      "hannah.abbott@acme.org",
+      "diana.prince@acme.org",
+      "fiona.gallagher@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-035",
+    "title": "Real-time Telemetry Pipeline: Sprint Retrospective",
+    "start_at": "2026-10-16T22:00:00Z",
+    "end_at": "2026-10-16T22:45:00Z",
+    "attendees": [
+      "kevin.bacon@acme.org",
+      "julia.roberts@acme.org",
+      "ian.malcolm@acme.org",
+      "charlie.davis@acme.org",
+      "hannah.abbott@acme.org",
+      "alice.chen@acme.org"
+    ],
+    "project_id": "proj-analytics-pipeline",
+    "is_milestone": true,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-036",
+    "title": "Mobile Gateway & API Hub: Sprint Retrospective",
+    "start_at": "2026-10-12T03:00:00Z",
+    "end_at": "2026-10-12T04:00:00Z",
+    "attendees": [
+      "ian.malcolm@acme.org",
+      "charlie.davis@acme.org",
+      "julia.roberts@acme.org",
+      "kevin.bacon@acme.org",
+      "laura.croft@acme.org",
+      "alice.chen@acme.org"
+    ],
+    "project_id": "proj-mobile-app",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-037",
+    "title": "Real-time Telemetry Pipeline: Telemetry Performance Review",
+    "start_at": "2026-10-09T03:00:00Z",
+    "end_at": "2026-10-09T03:45:00Z",
+    "attendees": [
+      "laura.croft@acme.org",
+      "diana.prince@acme.org",
+      "evan.wright@acme.org",
+      "george.miller@acme.org",
+      "fiona.gallagher@acme.org",
+      "charlie.davis@acme.org",
+      "kevin.bacon@acme.org"
+    ],
+    "project_id": "proj-analytics-pipeline",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-038",
+    "title": "Cloud Infrastructure Migration: Cloud Migration Readiness Check",
+    "start_at": "2026-10-03T01:00:00Z",
+    "end_at": "2026-10-03T02:00:00Z",
+    "attendees": [
+      "fiona.gallagher@acme.org",
+      "ian.malcolm@acme.org",
+      "diana.prince@acme.org",
+      "julia.roberts@acme.org",
+      "kevin.bacon@acme.org",
+      "evan.wright@acme.org",
+      "laura.croft@acme.org"
+    ],
+    "project_id": "proj-cloud-migration",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-039",
+    "title": "SSO & Identity Federation: Telemetry Performance Review",
+    "start_at": "2026-10-19T23:00:00Z",
+    "end_at": "2026-10-20T00:00:00Z",
+    "attendees": [
+      "ian.malcolm@acme.org",
+      "laura.croft@acme.org",
+      "fiona.gallagher@acme.org",
+      "bob.martinez@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  },
+  {
+    "id": "event-040",
+    "title": "SSO & Identity Federation: Engineering Standup",
+    "start_at": "2026-10-14T03:00:00Z",
+    "end_at": "2026-10-14T04:00:00Z",
+    "attendees": [
+      "evan.wright@acme.org",
+      "george.miller@acme.org",
+      "alice.chen@acme.org",
+      "ian.malcolm@acme.org",
+      "bob.martinez@acme.org",
+      "julia.roberts@acme.org",
+      "diana.prince@acme.org"
+    ],
+    "project_id": "proj-auth-federation",
+    "is_milestone": false,
+    "location": "Google Meet / Conference Room Alpha"
+  }
+]

@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twinos-backend"
+version = "1.0.0"
+description = "TwinOS: An AI-Powered Digital Twin Operating System for Organizations"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.28.0",
+    "pydantic>=2.6.0",
+    "pydantic-settings>=2.2.0",
+    "sqlalchemy>=2.0.28",
+    "alembic>=1.13.1",
+    "neo4j>=5.18.0",
+    "apscheduler>=3.10.4",
+    "httpx>=0.27.0",
+    "tenacity>=8.2.3",
+    "cryptography>=42.0.5",
+    "scikit-learn>=1.4.1",
+    "pandas>=2.2.1",
+    "numpy>=1.26.4",
+    "joblib>=1.3.2",
+    "python-dotenv>=1.0.1",
+    "python-multipart>=0.0.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.1.1",
+    "pytest-asyncio>=0.23.6",
+    "respx>=0.21.1",
+    "ruff>=0.3.4",
+    "black>=24.3.0",
+    "mypy>=1.9.0",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 100
+target-version = ['py311']
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-q"
+testpaths = ["tests"]
+pythonpath = ["."]
+asyncio_mode = "auto"

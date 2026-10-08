@@ -1,0 +1,45 @@
+flowchart TD
+    %% TwinOS Level-0 Data Flow Diagram (Context Diagram)
+
+    subgraph ExternalSources["External Platform Entities"]
+        GH["GitHub API<br/>(Repositories, Commits, PRs)"]
+        TR["Trello API<br/>(Boards, Lists, Cards, Deadlines)"]
+        GM["Gmail API<br/>(Metadata, Headers, Snippets)"]
+        GC["Google Calendar API<br/>(Events, Attendees, Timestamps)"]
+    end
+
+    subgraph System["TwinOS Boundary"]
+        TWINOS(("TwinOS Core System<br/>(Knowledge Graph, Risk ML,<br/>RAG Assistant & Sync Engine)"))
+    end
+
+    subgraph Users["System Stakeholders"]
+        MGR["Project Manager / Lead"]
+        DEV["Software Engineer / Member"]
+        ADM["System Administrator"]
+    end
+
+    %% Data Flows: External Sources -> TwinOS
+    GH -- "Commits, Branches, Push Logs" --> TWINOS
+    TR -- "Cards, Status Changes, Deadlines" --> TWINOS
+    GM -- "Subject Lines, Timestamps, Participant Snippets" --> TWINOS
+    GC -- "Event Titles, Schedules, Attendee Lists" --> TWINOS
+    TWINOS -- "OAuth Refreshes, Sync Ingestion Requests" --> ExternalSources
+
+    %% Data Flows: Users -> TwinOS
+    MGR -- "Natural Language Risk Queries, Project Filtering" --> TWINOS
+    DEV -- "Task Status Transitions, My-Work Inspections" --> TWINOS
+    ADM -- "RBAC Management, Risk Threshold Config, Sync Triggers" --> TWINOS
+
+    %% Data Flows: TwinOS -> Users
+    TWINOS -- "Grounded RAG Explanations & Citation Subgraphs" --> MGR
+    TWINOS -- "Early-Warning Delay Risk Scores & KPI Forecasts" --> MGR
+    TWINOS -- "Assigned Task Stream, Impending Deadlines" --> DEV
+    TWINOS -- "Immutable Security Audit Trails, Health Metrics" --> ADM
+
+    classDef entity fill:#1e293b,stroke:#0284c7,stroke-width:2px,color:#f8fafc;
+    classDef system fill:#0f172a,stroke:#06b6d4,stroke-width:3px,color:#38bdf8;
+    classDef users fill:#1e1b4b,stroke:#8b5cf6,stroke-width:2px,color:#ede9fe;
+
+    class GH,TR,GM,GC entity;
+    class TWINOS system;
+    class MGR,DEV,ADM users;

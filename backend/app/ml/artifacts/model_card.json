@@ -1,0 +1,39 @@
+{
+  "model_name": "LogisticRegression",
+  "version": "1.0.0",
+  "features": [
+    "commit_frequency_7d",
+    "commit_frequency_28d",
+    "commit_trend",
+    "task_velocity",
+    "open_task_ratio",
+    "overdue_task_count",
+    "deadline_slippage_days",
+    "blocked_task_ratio",
+    "days_to_deadline",
+    "workload_concentration",
+    "email_activity_trend",
+    "meeting_load"
+  ],
+  "metrics": {
+    "cv_roc_auc": 0.8789,
+    "test_roc_auc": 0.8661,
+    "test_accuracy": 0.7829,
+    "test_precision": 0.7106,
+    "test_recall": 0.6653,
+    "baseline_lr_cv_roc_auc": 0.8789,
+    "gradient_boosting_cv_roc_auc": 0.8569
+  },
+  "training_data": {
+    "samples": 3500,
+    "source": "synthetic_generator",
+    "seed": 42,
+    "correlations": "task velocity, overdue counts, slippage, blocked ratio, workload concentration"
+  },
+  "threshold_bands": {
+    "low": "< 0.35",
+    "medium": "0.35 - 0.59",
+    "high": "0.60 - 0.79",
+    "critical": ">= 0.80"
+  }
+}

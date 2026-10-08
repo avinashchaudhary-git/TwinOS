@@ -1,0 +1,80 @@
+flowchart TD
+    %% TwinOS Level-1 Data Flow Diagram (Detailed Functional Decomposition)
+
+    subgraph ExternalSources["External Platforms"]
+        GH["GitHub API"]
+        TR["Trello API"]
+        GM["Gmail API"]
+        GC["Google Calendar API"]
+    end
+
+    subgraph DataStores["Data Stores"]
+        D1[("D1: Relational Store<br/>PostgreSQL / SQLite<br/>(Users, Audit, Staging, Alerts)")]
+        D2[("D2: Knowledge Graph<br/>Neo4j Graph Store<br/>(8 Entities, 9 Relationships)")]
+        D3[("D3: Vector Store<br/>ChromaDB Collection<br/>(Embeddings & Semantic Index)")]
+    end
+
+    subgraph Processes["TwinOS Functional Processes"]
+        P1["1.0 Auth & RBAC Guard<br/>(Dev Tokens / Firebase)"]
+        P2["2.0 Ingestion & Connector<br/>Orchestrator (Tenacity Backoff)"]
+        P3["3.0 Knowledge Graph Builder<br/>& Entity Resolver"]
+        P4["4.0 Vector Embedding<br/>& Semantic Indexer"]
+        P5["5.0 Delay Risk Prediction<br/>Engine (12 Features + Model)"]
+        P6["6.0 Grounded RAG Assistant<br/>(Cypher Templates + Vectors)"]
+        P7["7.0 Alert & Audit Dispatcher<br/>(Immutable Log & Thresholds)"]
+    end
+
+    subgraph Users["System Roles"]
+        MGR["Project Manager"]
+        DEV["Software Engineer"]
+        ADM["System Administrator"]
+    end
+
+    %% Auth Flows
+    MGR & DEV & ADM -- "1. Credentials / Role Header" --> P1
+    P1 -- "Read User & Role Policy" --> D1
+    P1 -- "Authorized Actor Context" --> P2 & P5 & P6 & P7
+
+    %% Ingestion Flows
+    GH -- "Commits, Branches, PRs" --> P2
+    TR -- "Cards, Lists, Due Dates" --> P2
+    GM -- "Subject, Timestamps, Snippets" --> P2
+    GC -- "Events, Attendees, Meetings" --> P2
+    P2 -- "Stage Raw Payloads (Deduplication)" --> D1
+    P2 -- "Normalized Entity Stream" --> P3
+    P2 -- "Text Chunks & Summaries" --> P4
+
+    %% Graph & Vector Builder
+    P3 -- "UNWIND & MERGE Nodes + Edges" --> D2
+    P4 -- "Index Embeddings with Metadata" --> D3
+
+    %% Risk Engine Flows
+    P5 -- "Query Graph Topology & Workload" --> D2
+    P5 -- "Query Historical Velocity & Commits" --> D1
+    P5 -- "Write Risk Scores & Top Factors" --> D1
+    P5 -- "Trigger Escalation on Threshold Breach" --> P7
+
+    %% Alert & Audit Flows
+    P7 -- "Persist Immutable Audit Event" --> D1
+    P7 -- "Dispatch Project Delay Alerts" --> MGR
+    P7 -- "Deliver Audit Trail & Health Status" --> ADM
+
+    %% RAG Assistant Flows
+    MGR & DEV -- "Natural Language Risk Query" --> P6
+    P6 -- "Fetch Whitelisted Cypher Template Data" --> D2
+    P6 -- "Fetch Semantic Context by Cosine Similarity" --> D3
+    P6 -- "Enforce Employee Subgraph Scoping" --> D2
+    P6 -- "Return Synthesized Answer + Citations" --> MGR & DEV
+
+    %% Direct Views & Operations
+    DEV -- "Update Card Status" --> D1
+    D1 -- "Sync Assigned Task Stream" --> DEV
+    MGR -- "View Executive Risk Heatmap & D3 Topology" --> D1 & D2
+
+    classDef store fill:#1e293b,stroke:#059669,stroke-width:2px,color:#6ee7b7;
+    classDef proc fill:#0f172a,stroke:#3b82f6,stroke-width:2px,color:#93c5fd;
+    classDef entity fill:#1e1b4b,stroke:#8b5cf6,stroke-width:2px,color:#ede9fe;
+
+    class D1,D2,D3 store;
+    class P1,P2,P3,P4,P5,P6,P7 proc;
+    class GH,TR,GM,GC,MGR,DEV,ADM entity;

@@ -1,0 +1,69 @@
+{
+  "organization": {
+    "id": "org-twinos-demo-001",
+    "name": "Acme Innovations Corp"
+  },
+  "employees": [
+    {"id": "emp-001", "name": "Alice Chen", "email": "alice.chen@acme.org", "role": "manager", "role_title": "Engineering Director", "github": "alicechen", "trello": "alice_c"},
+    {"id": "emp-002", "name": "Bob Martinez", "email": "bob.martinez@acme.org", "role": "employee", "role_title": "Staff Backend Engineer", "github": "bobm-dev", "trello": "bob_m"},
+    {"id": "emp-003", "name": "Charlie Davis", "email": "charlie.davis@acme.org", "role": "employee", "role_title": "Senior Frontend Engineer", "github": "charlied", "trello": "charlie_d"},
+    {"id": "emp-004", "name": "Diana Prince", "email": "diana.prince@acme.org", "role": "employee", "role_title": "Full Stack Engineer", "github": "dianap", "trello": "diana_p"},
+    {"id": "emp-005", "name": "Evan Wright", "email": "evan.wright@acme.org", "role": "employee", "role_title": "Senior DevOps Engineer", "github": "evanw-ops", "trello": "evan_w"},
+    {"id": "emp-006", "name": "Fiona Gallagher", "email": "fiona.gallagher@acme.org", "role": "employee", "role_title": "Lead QA Engineer", "github": "fionag-qa", "trello": "fiona_g"},
+    {"id": "emp-007", "name": "George Miller", "email": "george.miller@acme.org", "role": "manager", "role_title": "Product Group Manager", "github": "gmiller-pm", "trello": "george_m"},
+    {"id": "emp-008", "name": "Hannah Abbott", "email": "hannah.abbott@acme.org", "role": "employee", "role_title": "Data Platform Engineer", "github": "habbott-data", "trello": "hannah_a"},
+    {"id": "emp-009", "name": "Ian Malcolm", "email": "ian.malcolm@acme.org", "role": "employee", "role_title": "Machine Learning Engineer", "github": "ianm-ai", "trello": "ian_m"},
+    {"id": "emp-010", "name": "Julia Roberts", "email": "julia.roberts@acme.org", "role": "employee", "role_title": "Product Designer", "github": "juliar-ux", "trello": "julia_r"},
+    {"id": "emp-011", "name": "Kevin Bacon", "email": "kevin.bacon@acme.org", "role": "employee", "role_title": "Security Architect", "github": "kevinb-sec", "trello": "kevin_b"},
+    {"id": "emp-012", "name": "Laura Croft", "email": "laura.croft@acme.org", "role": "admin", "role_title": "Enterprise IT Admin", "github": "laurac-admin", "trello": "laura_c"}
+  ],
+  "projects": [
+    {
+      "id": "proj-core-platform",
+      "name": "Core Platform v2.0",
+      "status": "active",
+      "start_date": "2026-08-01T09:00:00Z",
+      "target_end_date": "2026-11-15T18:00:00Z",
+      "manager_id": "emp-001"
+    },
+    {
+      "id": "proj-cloud-migration",
+      "name": "Cloud Infrastructure Migration",
+      "status": "at_risk",
+      "start_date": "2026-07-15T09:00:00Z",
+      "target_end_date": "2026-10-25T18:00:00Z",
+      "manager_id": "emp-001"
+    },
+    {
+      "id": "proj-auth-federation",
+      "name": "SSO & Identity Federation",
+      "status": "active",
+      "start_date": "2026-08-20T09:00:00Z",
+      "target_end_date": "2026-12-01T18:00:00Z",
+      "manager_id": "emp-007"
+    },
+    {
+      "id": "proj-analytics-pipeline",
+      "name": "Real-time Telemetry Pipeline",
+      "status": "at_risk",
+      "start_date": "2026-08-10T09:00:00Z",
+      "target_end_date": "2026-10-30T18:00:00Z",
+      "manager_id": "emp-007"
+    },
+    {
+      "id": "proj-mobile-app",
+      "name": "Mobile Gateway & API Hub",
+      "status": "planned",
+      "start_date": "2026-10-01T09:00:00Z",
+      "target_end_date": "2027-01-30T18:00:00Z",
+      "manager_id": "emp-007"
+    }
+  ],
+  "repositories": [
+    {"id": "repo-core", "full_name": "acme/core-platform", "url": "https://github.com/acme/core-platform", "default_branch": "main", "project_id": "proj-core-platform"},
+    {"id": "repo-infra", "full_name": "acme/cloud-terraform", "url": "https://github.com/acme/cloud-terraform", "default_branch": "main", "project_id": "proj-cloud-migration"},
+    {"id": "repo-auth", "full_name": "acme/auth-service", "url": "https://github.com/acme/auth-service", "default_branch": "main", "project_id": "proj-auth-federation"},
+    {"id": "repo-pipeline", "full_name": "acme/telemetry-engine", "url": "https://github.com/acme/telemetry-engine", "default_branch": "main", "project_id": "proj-analytics-pipeline"},
+    {"id": "repo-mobile", "full_name": "acme/mobile-gateway", "url": "https://github.com/acme/mobile-gateway", "default_branch": "main", "project_id": "proj-mobile-app"}
+  ]
+}
